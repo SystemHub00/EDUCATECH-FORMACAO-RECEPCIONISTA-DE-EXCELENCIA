@@ -35,8 +35,8 @@ COURSE_OPTIONS = [
         "turma": "TURMA RECEPCIONISTA 01",
         "dias_aula": "Sábado",
         "horario": "08h até 12h",
-        "data_inicio": "11/04/2026",
-        "encerramento": "16/05/2026",
+        "data_inicio": "16/04/2026",
+        "encerramento": "09/05/2026",
         "endereco_curso": "📍Avenida Geremário Dantas, 1400",
     },
 ]
