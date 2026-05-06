@@ -924,7 +924,7 @@ TEMPLATE_WIZARD = r'''
                 <section class="wizard-panel" data-step="index">
                     <div class="hero-grid">
                         <div class="hero-card">
-                            <span class="hero-pill">PROJETO: EDUCATECH</span>
+                            <span class="hero-pill">PROJETO: QUALIFICATECH</span>
                                 <h1 class="hero-title">FORMAÇÃO DE RECEPCIONISTA DE EXCELÊNCIA</h1>
                             <p class="hero-subtitle">
                                 Capacitação Profissional com Ênfase em Novas Tecnologias para Ingresso e Permanência no Mercado de Trabalho!<br>
@@ -2276,7 +2276,7 @@ def confirmacao():
     if not protocolo:
         return redirect(url_for("home"))
 
-    home_url = "https://educatech-formacao-recepcionista-de-excelencia.onrender.com"
+    home_url = "https://qualificatech-formacao-recepcionista-de-excelencia.onrender.com"
 
     return render_template_string(
         TEMPLATE_CONFIRMACAO,
