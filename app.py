@@ -2276,7 +2276,7 @@ def confirmacao():
     if not protocolo:
         return redirect(url_for("home"))
 
-    home_url = "https://qualificatech-formacao-recepcionista-de-excelencia.onrender.com"
+    home_url = "https://educatech-formacao-recepcionista-de-excelencia.onrender.com"
 
     return render_template_string(
         TEMPLATE_CONFIRMACAO,
